@@ -1,0 +1,119 @@
+body {
+    background-color: #CFCFCF;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    transition-delay: 0s, 500ms;
+}
+
+
+/* .topo {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+} */
+
+.todoInput {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 50vw;
+    width: 326px;
+    height: 35px;
+    background: #828282;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17.5px;
+    display: flex;
+}
+
+#button {
+    background: url("add.png");
+    background-size: contain;
+    height: 27px;
+    width: 27px;
+    margin-left: 11px;
+    margin-top: 4px;
+}
+
+.todoInput input {
+    max-width: 33vw;
+    width: 276px;
+    height: 26px;
+    background: #F2F2F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    border: 0;
+    outline: none;
+    text-align: center;
+    margin-left: 7px;
+    margin-top: 4px;
+    padding: 0;
+}
+
+.todoUndone {
+    display: grid;
+    grid-template-columns: 1fr 32px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: auto;
+    min-width: 75vw;
+    max-width: 500px;
+    min-height: 38px;
+    color: #333333;
+    background: #828282;
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 40px;
+    transition: 1s;
+}
+
+.todoDone:hover,
+.todoUndone:hover {
+    transform: scale(1.04);
+}
+
+.todoDone {
+    display: grid;
+    grid-template-columns: 1fr 32px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: auto;
+    min-width: 75vw;
+    max-width: 500px;
+    min-height: 38px;
+    color: #E0E0E0;
+    background-color: #27AE60;
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 40px;
+    transition: 1s;
+}
+
+.divRemov {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remover {
+    background: url(remove.png);
+    background-size: contain;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+    margin-right: 5px;
+    color: red;
+    font-size: x-small;
+    height: 27px;
+    width: 27px;
+}
+
+.textTodo {
+    display: block;
+    padding-top: 7px;
+    min-width: 70vw;
+    word-break: break-all;
+}
